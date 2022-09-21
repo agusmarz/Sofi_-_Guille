@@ -1540,13 +1540,13 @@ p.form-message.success, p.form-message.error {
   margin-bottom: 50px
 }
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 1400px)
     {
       .slider_content{
         background-image: url(../images/celu.png); 
         background-size: contain; 
         background-repeat: no-repeat; 
-        height: 89vh;
+        height: 79vh;
         background-position: center;
       }
 
@@ -1559,16 +1559,16 @@ p.form-message.success, p.form-message.error {
       }
 
       #inicio{
-        height: 100vh;
+        height: 90vh;
       }
 
       #ya{
         background-size: cover;
-        height: 100vh;
+        height: 90vh;
       }
     }
 
-    @media screen and (min-width: 700px)
+    @media screen and (min-width:1400px)
     {
       .slider_content{
         background-image: url(../images/verde.png); 
@@ -1580,4 +1580,6 @@ p.form-message.success, p.form-message.error {
         width: 170%; 
         height: 130%; 
         background-position: 50% 35%;}
+
+       
     }
