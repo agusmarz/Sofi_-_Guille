@@ -494,7 +494,7 @@ BAR =====*/
   .navbar-toggler .toggler-icon {
     width: 30px;
     height: 2px;
-    background-color: #fff;
+    background-color: #252525;
     display: block;
     margin: 5px 0;
     position: relative;
@@ -560,7 +560,7 @@ BAR =====*/
   .navbar-nav .nav-item a {
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #252525;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -1543,10 +1543,10 @@ p.form-message.success, p.form-message.error {
 @media screen and (max-width: 1400px)
     {
       .slider_content{
-        background-image: url(../images/celu.png); 
+        background-image: url(../images/Celu2.jpg); 
         background-size: contain; 
         background-repeat: no-repeat; 
-        height: 79vh;
+        height: 89vh;
         background-position: center;
       }
 
@@ -1558,16 +1558,28 @@ p.form-message.success, p.form-message.error {
         opacity: 0;
       }
 
+      
+
+      #obs{
+        width: 250px;
+        display: block;
+        margin: auto;
+        margin-top: 3vh;
+      }
+
+      .obst{
+        text-align: center;
+      }
       #pareja1{
         width: 30vw;
       }
       #inicio{
-        height: 90vh;
+        height: 80vh;
       }
 
       #ya{
         background-size: cover;
-        height: 90vh;
+        height: 80vh;
       }
     }
 
@@ -1583,9 +1595,28 @@ p.form-message.success, p.form-message.error {
         width: 170%; 
         height: 130%; 
         background-position: 50% 35%;}
+        
+        #ya{
+          background-size: cover;
+          height: 90vh;
+          padding-top: 7%;
+        }
+        .grid_container{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          column-gap: 140px;
+        }
+        #obs{
+          width: 600px;
+        }
 
         #pareja1{
           width: 10vw;
         }
-       
+        .obst{
+          text-align: right;
+        }
     }
+
+    
